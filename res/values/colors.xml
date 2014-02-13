@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ASBESTIOS">#7f8c8d</color>
+    <color name="CONRETE">#95a5a6</color>
+    <color name="SILVER">#bdc3c7</color>
+    <color name="CLOUDS">#ecf0f1</color>
+    <color name="POMEGRANATE">#c0392b</color>
+    <color name="ALIZARIN">#e74c3c</color>
+    <color name="PUMPKIN">#d35400</color>
+    <color name="CARROT">#e67e22</color>
+    <color name="SUNFLOWER">#f1c40f</color>
+    <color name="MIDNIGHTBLUE">#2c3e50</color>
+    <color name="WETASPHALT">#34495e</color>
+    <color name="WISTERIA">#8e44ad</color>
+    <color name="AMETHYST">#9b59b6</color>
+    <color name="BELIZEHOLE">#2980b9</color>
+    <color name="PETERRIVER">#3498db</color>
+    <color name="NEPHRITIS">#27ae60</color>
+    <color name="EMERALD">#2ecc71</color>
+    <color name="GREENSEA">#16a085</color>
+    <color name="TURQUOISE">#1abc9c</color>
+</resources>
