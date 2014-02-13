@@ -8,7 +8,7 @@
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.40">
+            android:layout_height="0dp" android:layout_weight="0.35">
         <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
@@ -27,17 +27,15 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.12" android:baselineAligned="false"
+            android:layout_height="0dp" android:layout_weight="0.13" android:baselineAligned="false"
             android:weightSum="1">
         <Button android:layout_width="0dp" android:layout_height="fill_parent" android:id="@+id/bDivide"
-                android:layout_weight="0.25" android:text="÷" android:hapticFeedbackEnabled="true"
-                />
+                android:layout_weight="0.25" android:text="÷" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="CLR"
-                android:id="@+id/bClear" android:layout_weight="0.375" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bClear" android:layout_weight="0.375" android:hapticFeedbackEnabled="true"/>
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
@@ -47,102 +45,87 @@
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.12">
+            android:layout_height="0dp" android:layout_weight="0.13">
         <Button android:layout_width="0dp" android:layout_height="fill_parent" android:text="x"
-                android:id="@+id/bMultiply" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bMultiply" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="7"
-                android:id="@+id/bSeven" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bSeven" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button android:layout_width="0dp" android:layout_height="fill_parent" android:text="8"
-                android:id="@+id/bEight" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bEight" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button android:layout_width="0dp" android:layout_height="fill_parent" android:text="9"
-                android:id="@+id/bNine" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bNine" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.12">
+            android:layout_height="0dp" android:layout_weight="0.13">
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="-"
-                android:id="@+id/bSubtract" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bSubtract" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="4"
-                android:id="@+id/bFour" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bFour" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="5"
-                android:id="@+id/bFive" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bFive" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="6"
-                android:id="@+id/bSix" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bSix" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.12">
+            android:layout_height="0dp" android:layout_weight="0.13">
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="+"
-                android:id="@+id/bPlus" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bPlus" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="1"
-                android:id="@+id/bOne" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bOne" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="2"
-                android:id="@+id/bTwo" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bTwo" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="3"
-                android:id="@+id/bThree" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bThree" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:layout_weight="0.12">
+            android:layout_height="0dp" android:layout_weight="0.13">
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="="
-                android:id="@+id/bEqual" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bEqual" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="."
-                android:id="@+id/bPeriod" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bPeriod" android:layout_weight="0.25" android:hapticFeedbackEnabled="true"/>
         <Button
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
                 android:text="0"
-                android:id="@+id/bZero" android:layout_weight="0.50" android:hapticFeedbackEnabled="true"
-                />
+                android:id="@+id/bZero" android:layout_weight="0.50" android:hapticFeedbackEnabled="true"/>
     </LinearLayout>
 </LinearLayout>
