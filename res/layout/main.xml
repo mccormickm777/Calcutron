@@ -39,7 +39,8 @@
         <ImageButton
                 android:layout_width="0dp"
                 android:layout_height="fill_parent"
-                android:id="@+id/bBack" android:layout_weight="0.375" android:hapticFeedbackEnabled="true"/>
+                android:id="@+id/bBack" android:layout_weight="0.375" android:hapticFeedbackEnabled="true"
+                android:src="@android:drawable/ic_input_delete"/>
     </LinearLayout>
     <LinearLayout
             android:orientation="horizontal"
